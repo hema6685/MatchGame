@@ -81,7 +81,6 @@ namespace MatchGame
 
         TextBlock lastTextBlockClicked;
         bool findingMatch = false;
-
         private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
         {
             TextBlock textBlock = sender as TextBlock;
@@ -103,7 +102,6 @@ namespace MatchGame
                 findingMatch = false;
             }
         }
-
         private void TimeTextBlock_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (matchesFound == 8)
